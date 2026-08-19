@@ -31,5 +31,5 @@ production:
   <<: *default
   # Use ANYCABLE_WEBSOCKET_URL and ANYCABLE_SECRET environment variables
   # or credentials or whatever.
-  websocket_url: ~
-  secret: ~
+  websocket_url: "ws://localhost:8080/cable"
+  secret: "anycable-local-secret"
